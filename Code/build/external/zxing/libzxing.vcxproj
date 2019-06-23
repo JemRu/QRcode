@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D4182311-1BCF-3E73-A60E-CA4F5DCAEAE7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>libzxing</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\workplace\visual studio 2015\QRcode\CarvingQR\build\external\zxing\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libzxing.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">libzxing-debug</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\workplace\visual studio 2015\QRcode\CarvingQR\build\external\zxing\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libzxing.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">libzxing</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\workplace\visual studio 2015\QRcode\CarvingQR\build\external\zxing\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libzxing.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">libzxing</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\workplace\visual studio 2015\QRcode\CarvingQR\build\external\zxing\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libzxing.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">libzxing</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <DisableSpecificWarnings>4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <FloatingPointModel>Strict</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NO_ICONV=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NO_ICONV=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <DisableSpecificWarnings>4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <FloatingPointModel>Strict</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NDEBUG;NO_ICONV=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NDEBUG;NO_ICONV=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <DisableSpecificWarnings>4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <FloatingPointModel>Strict</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NDEBUG;NO_ICONV=1;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NDEBUG;NO_ICONV=1;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <DisableSpecificWarnings>4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <FloatingPointModel>Strict</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NDEBUG;NO_ICONV=1;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NDEBUG;NO_ICONV=1;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/workplace/visual studio 2015/QRcode/CarvingQR/external/zxing/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HD:/workplace/visual studio 2015/QRcode/CarvingQR" "-BD:/workplace/visual studio 2015/QRcode/CarvingQR/build" --check-stamp-file "D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/workplace/visual studio 2015/QRcode/CarvingQR/external/zxing/CMakeLists.txt;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\CMakeLists.txt;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\source_files.cmake;D:\dev\opencv4.0\opencv\build\OpenCVConfig-version.cmake;D:\dev\opencv4.0\opencv\build\OpenCVConfig.cmake;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cmake\zxing-config.cmake.in;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\workplace\visual studio 2015\QRcode\CarvingQR\build\external\zxing\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/workplace/visual studio 2015/QRcode/CarvingQR/external/zxing/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HD:/workplace/visual studio 2015/QRcode/CarvingQR" "-BD:/workplace/visual studio 2015/QRcode/CarvingQR/build" --check-stamp-file "D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/workplace/visual studio 2015/QRcode/CarvingQR/external/zxing/CMakeLists.txt;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\CMakeLists.txt;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\source_files.cmake;D:\dev\opencv4.0\opencv\build\OpenCVConfig-version.cmake;D:\dev\opencv4.0\opencv\build\OpenCVConfig.cmake;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cmake\zxing-config.cmake.in;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\workplace\visual studio 2015\QRcode\CarvingQR\build\external\zxing\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/workplace/visual studio 2015/QRcode/CarvingQR/external/zxing/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HD:/workplace/visual studio 2015/QRcode/CarvingQR" "-BD:/workplace/visual studio 2015/QRcode/CarvingQR/build" --check-stamp-file "D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/workplace/visual studio 2015/QRcode/CarvingQR/external/zxing/CMakeLists.txt;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\CMakeLists.txt;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\source_files.cmake;D:\dev\opencv4.0\opencv\build\OpenCVConfig-version.cmake;D:\dev\opencv4.0\opencv\build\OpenCVConfig.cmake;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cmake\zxing-config.cmake.in;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\workplace\visual studio 2015\QRcode\CarvingQR\build\external\zxing\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/workplace/visual studio 2015/QRcode/CarvingQR/external/zxing/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HD:/workplace/visual studio 2015/QRcode/CarvingQR" "-BD:/workplace/visual studio 2015/QRcode/CarvingQR/build" --check-stamp-file "D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/workplace/visual studio 2015/QRcode/CarvingQR/external/zxing/CMakeLists.txt;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\CMakeLists.txt;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\source_files.cmake;D:\dev\opencv4.0\opencv\build\OpenCVConfig-version.cmake;D:\dev\opencv4.0\opencv\build\OpenCVConfig.cmake;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cmake\zxing-config.cmake.in;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\workplace\visual studio 2015\QRcode\CarvingQR\build\external\zxing\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\bigint\BigInteger.cc"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\bigint\BigInteger.hh" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\bigint\BigIntegerAlgorithms.cc"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\bigint\BigIntegerAlgorithms.hh" />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\bigint\BigIntegerLibrary.hh" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\bigint\BigIntegerUtils.cc"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\bigint\BigIntegerUtils.hh" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\bigint\BigUnsigned.cc"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\bigint\BigUnsigned.hh" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\bigint\BigUnsignedInABase.cc"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\bigint\BigUnsignedInABase.hh" />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\bigint\NumberlikeArray.hh" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\aztec\AztecDetectorResult.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\aztec\AztecDetectorResult.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\aztec\AztecReader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\aztec\AztecReader.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\aztec\decoder\Decoder.cpp" >
+      <ObjectFileName>$(IntDir)/core/src/zxing/aztec/decoder/Decoder.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\aztec\decoder\Decoder.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\aztec\detector\Detector.cpp" >
+      <ObjectFileName>$(IntDir)/core/src/zxing/aztec/detector/Detector.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\aztec\detector\Detector.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\BarcodeFormat.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\BarcodeFormat.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\Binarizer.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\Binarizer.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\BinaryBitmap.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\BinaryBitmap.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\ChecksumException.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\ChecksumException.h" />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\Array.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\BitArray.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\BitArray.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\BitArrayIO.cpp"  />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\BitMatrix.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\BitMatrix.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\BitSource.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\BitSource.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\CharacterSetECI.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\CharacterSetECI.h" />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\Counted.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\DecoderResult.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\DecoderResult.h" />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\detector\JavaMath.h" />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\detector\MathUtils.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\detector\MonochromeRectangleDetector.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\detector\MonochromeRectangleDetector.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\detector\WhiteRectangleDetector.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\detector\WhiteRectangleDetector.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\DetectorResult.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\DetectorResult.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\GlobalHistogramBinarizer.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\GlobalHistogramBinarizer.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\GreyscaleLuminanceSource.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\GreyscaleLuminanceSource.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\GreyscaleRotatedLuminanceSource.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\GreyscaleRotatedLuminanceSource.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\GridSampler.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\GridSampler.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\HybridBinarizer.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\HybridBinarizer.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\IllegalArgumentException.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\IllegalArgumentException.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\PerspectiveTransform.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\PerspectiveTransform.h" />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\Point.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\reedsolomon\GenericGF.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\reedsolomon\GenericGF.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\reedsolomon\GenericGFPoly.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\reedsolomon\GenericGFPoly.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\reedsolomon\ReedSolomonDecoder.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\reedsolomon\ReedSolomonDecoder.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\reedsolomon\ReedSolomonException.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\reedsolomon\ReedSolomonException.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\Str.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\Str.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\StringUtils.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\common\StringUtils.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\DataMatrixReader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\DataMatrixReader.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\decoder\BitMatrixParser.cpp" >
+      <ObjectFileName>$(IntDir)/core/src/zxing/datamatrix/decoder/BitMatrixParser.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\decoder\BitMatrixParser.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\decoder\DataBlock.cpp" >
+      <ObjectFileName>$(IntDir)/core/src/zxing/datamatrix/decoder/DataBlock.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\decoder\DataBlock.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\decoder\DecodedBitStreamParser.cpp" >
+      <ObjectFileName>$(IntDir)/core/src/zxing/datamatrix/decoder/DecodedBitStreamParser.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\decoder\DecodedBitStreamParser.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\decoder\Decoder.cpp" >
+      <ObjectFileName>$(IntDir)/core/src/zxing/datamatrix/decoder/Decoder.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\decoder\Decoder.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\detector\CornerPoint.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\detector\CornerPoint.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\detector\Detector.cpp" >
+      <ObjectFileName>$(IntDir)/core/src/zxing/datamatrix/detector/Detector.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\detector\Detector.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\detector\DetectorException.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\detector\DetectorException.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\Version.cpp" >
+      <ObjectFileName>$(IntDir)/core/src/zxing/datamatrix/Version.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\Version.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\DecodeHints.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\DecodeHints.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\Exception.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\Exception.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\FormatException.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\FormatException.h" />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\IllegalStateException.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\InvertedLuminanceSource.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\InvertedLuminanceSource.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\LuminanceSource.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\LuminanceSource.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\multi\ByQuadrantReader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\multi\ByQuadrantReader.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\multi\GenericMultipleBarcodeReader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\multi\GenericMultipleBarcodeReader.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\multi\MultipleBarcodeReader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\multi\MultipleBarcodeReader.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\multi\qrcode\detector\MultiDetector.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\multi\qrcode\detector\MultiDetector.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\multi\qrcode\detector\MultiFinderPatternFinder.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\multi\qrcode\detector\MultiFinderPatternFinder.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\multi\qrcode\QRCodeMultiReader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\multi\qrcode\QRCodeMultiReader.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\MultiFormatReader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\MultiFormatReader.h" />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\NotFoundException.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\CodaBarReader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\CodaBarReader.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\Code128Reader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\Code128Reader.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\Code39Reader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\Code39Reader.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\Code93Reader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\Code93Reader.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\EAN13Reader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\EAN13Reader.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\EAN8Reader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\EAN8Reader.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\ITFReader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\ITFReader.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\MultiFormatOneDReader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\MultiFormatOneDReader.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\MultiFormatUPCEANReader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\MultiFormatUPCEANReader.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\OneDReader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\OneDReader.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\OneDResultPoint.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\OneDResultPoint.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\UPCAReader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\UPCAReader.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\UPCEANReader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\UPCEANReader.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\UPCEReader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\oned\UPCEReader.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\decoder\BitMatrixParser.cpp" >
+      <ObjectFileName>$(IntDir)/core/src/zxing/pdf417/decoder/BitMatrixParser.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\decoder\BitMatrixParser.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\decoder\DecodedBitStreamParser.cpp" >
+      <ObjectFileName>$(IntDir)/core/src/zxing/pdf417/decoder/DecodedBitStreamParser.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\decoder\DecodedBitStreamParser.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\decoder\Decoder.cpp" >
+      <ObjectFileName>$(IntDir)/core/src/zxing/pdf417/decoder/Decoder.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\decoder\Decoder.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\decoder\ec\ErrorCorrection.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\decoder\ec\ErrorCorrection.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\decoder\ec\ModulusGF.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\decoder\ec\ModulusGF.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\decoder\ec\ModulusPoly.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\decoder\ec\ModulusPoly.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\detector\Detector.cpp" >
+      <ObjectFileName>$(IntDir)/core/src/zxing/pdf417/detector/Detector.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\detector\Detector.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\detector\LinesSampler.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\detector\LinesSampler.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\PDF417Reader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\PDF417Reader.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\decoder\BitMatrixParser.cpp" >
+      <ObjectFileName>$(IntDir)/core/src/zxing/qrcode/decoder/BitMatrixParser.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\decoder\BitMatrixParser.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\decoder\DataBlock.cpp" >
+      <ObjectFileName>$(IntDir)/core/src/zxing/qrcode/decoder/DataBlock.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\decoder\DataBlock.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\decoder\DataMask.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\decoder\DataMask.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\decoder\DecodedBitStreamParser.cpp" >
+      <ObjectFileName>$(IntDir)/core/src/zxing/qrcode/decoder/DecodedBitStreamParser.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\decoder\DecodedBitStreamParser.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\decoder\Decoder.cpp" >
+      <ObjectFileName>$(IntDir)/core/src/zxing/qrcode/decoder/Decoder.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\decoder\Decoder.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\decoder\Mode.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\decoder\Mode.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\detector\AlignmentPattern.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\detector\AlignmentPattern.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\detector\AlignmentPatternFinder.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\detector\AlignmentPatternFinder.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\detector\Detector.cpp" >
+      <ObjectFileName>$(IntDir)/core/src/zxing/qrcode/detector/Detector.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\detector\Detector.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\detector\FinderPattern.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\detector\FinderPattern.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\detector\FinderPatternFinder.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\detector\FinderPatternFinder.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\detector\FinderPatternInfo.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\detector\FinderPatternInfo.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\ErrorCorrectionLevel.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\ErrorCorrectionLevel.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\FormatInformation.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\FormatInformation.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\QRCodeReader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\QRCodeReader.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\Version.cpp" >
+      <ObjectFileName>$(IntDir)/core/src/zxing/qrcode/Version.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\Version.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\Reader.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\Reader.h" />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\ReaderException.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\Result.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\Result.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\ResultIO.cpp"  />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\ResultPoint.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\ResultPoint.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\ResultPointCallback.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\ResultPointCallback.h" />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\ZXing.h" />
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src\zxing\MatSource.cpp"  />
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src\zxing\MatSource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\build\ZERO_CHECK.vcxproj">
+      <Project>{CF98DF47-9CCB-350F-ACC0-84BB9CC9D979}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

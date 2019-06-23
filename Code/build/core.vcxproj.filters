@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\include\AxisDetection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\include\MyDetector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\include\MyGridSampler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\include\QRImageInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\include\StabilityDectection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\include\pixelVisibility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StructureEnhance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectSP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\include\AxisDetection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\include\MyDetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\include\MyGridSampler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\include\MyReedSolomonDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\include\QRImageInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\include\StabilityDectection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\include\example.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\include\parallel_for.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\include\pixelVisibility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StructureEnhance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectSP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D616EBB3-F968-33C2-81F7-0056648873A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9B57A66D-BAE6-30D0-B59B-802969E20DF6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

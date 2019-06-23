@@ -1,0 +1,157 @@
+﻿  Decoder.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\aztec\decoder\Decoder.cpp(438): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Detector.cpp
+  BitMatrixParser.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\decoder\BitMatrixParser.cpp(30): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  DataBlock.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\decoder\DataBlock.cpp(70): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing/common/Array.h(73): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing/common/Array.h(72): note: while compiling class template member function 'int zxing::Array<T>::size(void) const'
+          with
+          [
+              T=char
+          ]
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\decoder\DataBlock.cpp(69): note: see reference to function template instantiation 'int zxing::Array<T>::size(void) const' being compiled
+          with
+          [
+              T=char
+          ]
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\decoder\DataBlock.cpp(69): note: see reference to class template instantiation 'zxing::Array<T>' being compiled
+          with
+          [
+              T=char
+          ]
+  DecodedBitStreamParser.cpp
+  Decoder.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\decoder\Decoder.cpp(70): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing/common/Array.h(73): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing/common/Array.h(72): note: while compiling class template member function 'int zxing::Array<T>::size(void) const'
+          with
+          [
+              T=char
+          ]
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\decoder\Decoder.cpp(41): note: see reference to function template instantiation 'int zxing::Array<T>::size(void) const' being compiled
+          with
+          [
+              T=char
+          ]
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\decoder\Decoder.cpp(41): note: see reference to class template instantiation 'zxing::Array<T>' being compiled
+          with
+          [
+              T=char
+          ]
+  Detector.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\detector\Detector.cpp(428): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Version.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\datamatrix\Version.cpp(196): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  BitMatrixParser.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing/common/Array.h(73): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing/common/Array.h(72): note: while compiling class template member function 'int zxing::Array<T>::size(void) const'
+          with
+          [
+              T=int
+          ]
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\decoder\BitMatrixParser.cpp(129): note: see reference to function template instantiation 'int zxing::Array<T>::size(void) const' being compiled
+          with
+          [
+              T=int
+          ]
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\decoder\BitMatrixParser.cpp(75): note: see reference to class template instantiation 'zxing::Array<T>' being compiled
+          with
+          [
+              T=int
+          ]
+  DecodedBitStreamParser.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing/common/Array.h(73): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing/common/Array.h(72): note: while compiling class template member function 'int zxing::Array<T>::size(void) const'
+          with
+          [
+              T=int
+          ]
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\decoder\DecodedBitStreamParser.cpp(110): note: see reference to function template instantiation 'int zxing::Array<T>::size(void) const' being compiled
+          with
+          [
+              T=int
+          ]
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\decoder\DecodedBitStreamParser.cpp(110): note: see reference to class template instantiation 'zxing::Array<T>' being compiled
+          with
+          [
+              T=int
+          ]
+  Decoder.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing/common/Array.h(73): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing/common/Array.h(72): note: while compiling class template member function 'int zxing::Array<T>::size(void) const'
+          with
+          [
+              T=int
+          ]
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\decoder\Decoder.cpp(48): note: see reference to function template instantiation 'int zxing::Array<T>::size(void) const' being compiled
+          with
+          [
+              T=int
+          ]
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\decoder\Decoder.cpp(48): note: see reference to class template instantiation 'zxing::Array<T>' being compiled
+          with
+          [
+              T=int
+          ]
+  Detector.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing/common/Array.h(73): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing/common/Array.h(72): note: while compiling class template member function 'int zxing::Array<T>::size(void) const'
+          with
+          [
+              T=int
+          ]
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\detector\Detector.cpp(307): note: see reference to function template instantiation 'int zxing::Array<T>::size(void) const' being compiled
+          with
+          [
+              T=int
+          ]
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\pdf417\detector\Detector.cpp(155): note: see reference to class template instantiation 'zxing::Array<T>' being compiled
+          with
+          [
+              T=int
+          ]
+  BitMatrixParser.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\decoder\BitMatrixParser.cpp(29): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  DataBlock.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\decoder\DataBlock.cpp(75): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing/common/Array.h(73): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing/common/Array.h(72): note: while compiling class template member function 'int zxing::Array<T>::size(void) const'
+          with
+          [
+              T=char
+          ]
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\decoder\DataBlock.cpp(74): note: see reference to function template instantiation 'int zxing::Array<T>::size(void) const' being compiled
+          with
+          [
+              T=char
+          ]
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\decoder\DataBlock.cpp(74): note: see reference to class template instantiation 'zxing::Array<T>' being compiled
+          with
+          [
+              T=char
+          ]
+  DecodedBitStreamParser.cpp
+  Decoder.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing/common/Array.h(73): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing/common/Array.h(72): note: while compiling class template member function 'int zxing::Array<T>::size(void) const'
+          with
+          [
+              T=char
+          ]
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\decoder\Decoder.cpp(45): note: see reference to function template instantiation 'int zxing::Array<T>::size(void) const' being compiled
+          with
+          [
+              T=char
+          ]
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\decoder\Decoder.cpp(45): note: see reference to class template instantiation 'zxing::Array<T>' being compiled
+          with
+          [
+              T=char
+          ]
+  Detector.cpp
+  Version.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\Version.cpp(163): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing\qrcode\Version.cpp(556): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  libzxing.vcxproj -> D:\workplace\visual studio 2015\QRcode\CarvingQR\build\external\zxing\Debug\libzxing-debug.lib

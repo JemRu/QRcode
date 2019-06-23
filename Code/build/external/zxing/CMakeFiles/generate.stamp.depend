@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+D:/workplace/visual studio 2015/QRcode/CarvingQR/external/zxing/CMakeLists.txt
+D:/workplace/visual studio 2015/QRcode/CarvingQR/external/zxing/source_files.cmake
+D:/dev/opencv4.0/opencv/build/OpenCVConfig-version.cmake
+D:/dev/opencv4.0/opencv/build/OpenCVConfig.cmake
+D:/dev/opencv4.0/opencv/build/x64/vc14/lib/OpenCVConfig.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/FindPackageMessage.cmake
+D:/workplace/visual studio 2015/QRcode/CarvingQR/external/zxing/cmake/zxing-config.cmake.in

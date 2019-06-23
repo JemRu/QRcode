@@ -1,0 +1,38 @@
+﻿  Building Custom Rule D:/workplace/visual studio 2015/QRcode/CarvingQR/external/qrgen/qrgen/CMakeLists.txt
+  CMake does not need to re-run because D:/workplace/visual studio 2015/QRcode/CarvingQR/build/qrgen.out/CMakeFiles/generate.stamp is up-to-date.
+  Alpha.cpp
+  BitBlock.cpp
+  Bits.cpp
+  GenericGF.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\qrgen\qrgen\Alpha.cpp(29): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\qrgen\qrgen\Alpha.cpp(35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  GenericGFPoly.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\qrgen\qrgen\BitBlock.cpp(24): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Number.cpp
+  Pixel.cpp
+d:\workplace\visual studio 2015\qrcode\carvingqr\external\qrgen\qrgen\alpha.cpp(25): warning C4715: 'qrgen::Alpha::validate': not all control paths return a value
+  Plan.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\qrgen\qrgen\Number.cpp(14): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\qrgen\qrgen\Number.cpp(20): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Qrcoder.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\qrgen\qrgen\GenericGFPoly.cpp(11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\qrgen\qrgen\GenericGFPoly.cpp(38): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\qrgen\qrgen\GenericGFPoly.cpp(66): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\qrgen\qrgen\GenericGFPoly.cpp(80): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\qrgen\qrgen\GenericGFPoly.cpp(94): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\qrgen\qrgen\GenericGFPoly.cpp(97): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\qrgen\qrgen\GenericGFPoly.cpp(116): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Raw.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\qrgen\qrgen\Plan.cpp(113): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\qrgen\qrgen\Plan.cpp(226): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\qrgen\qrgen\Plan.cpp(260): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Reed_Solomon_encoder.cpp
+  RSUtil.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\qrgen\qrgen\Raw.cpp(18): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\qrgen\qrgen\Raw.cpp(27): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Version.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\qrgen\qrgen\Reed_Solomon_encoder.cpp(8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\qrgen\qrgen\Reed_Solomon_encoder.cpp(27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\qrgen\qrgen\Reed_Solomon_encoder.cpp(43): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+d:\workplace\visual studio 2015\qrcode\carvingqr\external\qrgen\qrgen\qrcoder.cpp(26): warning C4715: 'qrgen::getMinVersion': not all control paths return a value
+  qrgen.vcxproj -> D:\workplace\visual studio 2015\QRcode\CarvingQR\build\qrgen.out\Release\qrgen.lib

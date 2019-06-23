@@ -1,0 +1,28 @@
+﻿  Connection.cpp
+d:\workplace\visual studio 2015\qrcode\carvingqr\include\MyDetector.h(14): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+d:\workplace\visual studio 2015\qrcode\carvingqr\include\QRImageInfo.h(70): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+d:\workplace\visual studio 2015\qrcode\carvingqr\include\QRImageInfo.h(71): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(17): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(76): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(77): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(172): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(173): warning C4244: '*=': conversion from 'double' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(349): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(354): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(383): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(787): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(791): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(1019): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(1037): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(1076): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(1136): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(1154): warning C4244: 'argument': conversion from 'double' to 'const int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(1196): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(1254): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(1272): warning C4244: 'argument': conversion from 'double' to 'const int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(1306): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(1326): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(1344): warning C4244: 'argument': conversion from 'double' to 'const int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\include\Connection.cpp(1325): warning C4101: 'minout2': unreferenced local variable
+  core.vcxproj -> D:\workplace\visual studio 2015\QRcode\CarvingQR\build\Debug\core.lib

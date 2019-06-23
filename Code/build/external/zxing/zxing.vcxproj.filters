@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\ImageReaderSource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\jpgd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\lodepng.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\ImageReaderSource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\jpgd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\lodepng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D616EBB3-F968-33C2-81F7-0056648873A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9B57A66D-BAE6-30D0-B59B-802969E20DF6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

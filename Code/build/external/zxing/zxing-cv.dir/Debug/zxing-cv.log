@@ -1,0 +1,5 @@
+﻿  main.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv-cli\src\main.cpp(53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv-cli\src\main.cpp(139): error C2065: 'CV_CAP_PROP_FRAME_WIDTH': undeclared identifier
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv-cli\src\main.cpp(146): error C2065: 'CV_CAP_PROP_FRAME_HEIGHT': undeclared identifier
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv-cli\src\main.cpp(170): error C2065: 'CV_BGR2GRAY': undeclared identifier

@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7E5AAA42-D513-328F-A542-07BB063EA20C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>zxing-cv</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\workplace\visual studio 2015\QRcode\CarvingQR\build\external\zxing\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">zxing-cv.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">zxing-cv</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\workplace\visual studio 2015\QRcode\CarvingQR\build\external\zxing\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">zxing-cv.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">zxing-cv</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\workplace\visual studio 2015\QRcode\CarvingQR\build\external\zxing\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">zxing-cv.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">zxing-cv</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\workplace\visual studio 2015\QRcode\CarvingQR\build\external\zxing\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">zxing-cv.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">zxing-cv</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <DisableSpecificWarnings>4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <FloatingPointModel>Strict</FloatingPointModel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NO_ICONV=1;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NO_ICONV=1;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Debug\libzxing-debug.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400d.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400d.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400d.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400d.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400d.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400d.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400d.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400d.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400d.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400d.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400d.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400d.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400d.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400d.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400d.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/Debug/zxing-cv.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/Debug/zxing-cv.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <DisableSpecificWarnings>4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <FloatingPointModel>Strict</FloatingPointModel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NDEBUG;NO_ICONV=1;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NDEBUG;NO_ICONV=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>Release\libzxing.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/Release/zxing-cv.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/Release/zxing-cv.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <DisableSpecificWarnings>4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <FloatingPointModel>Strict</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NDEBUG;NO_ICONV=1;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NDEBUG;NO_ICONV=1;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>MinSizeRel\libzxing.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/MinSizeRel/zxing-cv.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/MinSizeRel/zxing-cv.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableLanguageExtensions>true</DisableLanguageExtensions>
+      <DisableSpecificWarnings>4503</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <FloatingPointModel>Strict</FloatingPointModel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NDEBUG;NO_ICONV=1;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NDEBUG;NO_ICONV=1;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\lib\win32;D:\dev\opencv4.0\opencv\build\include;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv\src;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\libzxing.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\opencv_world400.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/RelWithDebInfo/zxing-cv.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/RelWithDebInfo/zxing-cv.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/workplace/visual studio 2015/QRcode/CarvingQR/external/zxing/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HD:/workplace/visual studio 2015/QRcode/CarvingQR" "-BD:/workplace/visual studio 2015/QRcode/CarvingQR/build" --check-stamp-file "D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/workplace/visual studio 2015/QRcode/CarvingQR/external/zxing/CMakeLists.txt;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\CMakeLists.txt;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\source_files.cmake;D:\dev\opencv4.0\opencv\build\OpenCVConfig-version.cmake;D:\dev\opencv4.0\opencv\build\OpenCVConfig.cmake;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cmake\zxing-config.cmake.in;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\workplace\visual studio 2015\QRcode\CarvingQR\build\external\zxing\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/workplace/visual studio 2015/QRcode/CarvingQR/external/zxing/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HD:/workplace/visual studio 2015/QRcode/CarvingQR" "-BD:/workplace/visual studio 2015/QRcode/CarvingQR/build" --check-stamp-file "D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/workplace/visual studio 2015/QRcode/CarvingQR/external/zxing/CMakeLists.txt;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\CMakeLists.txt;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\source_files.cmake;D:\dev\opencv4.0\opencv\build\OpenCVConfig-version.cmake;D:\dev\opencv4.0\opencv\build\OpenCVConfig.cmake;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cmake\zxing-config.cmake.in;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\workplace\visual studio 2015\QRcode\CarvingQR\build\external\zxing\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/workplace/visual studio 2015/QRcode/CarvingQR/external/zxing/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HD:/workplace/visual studio 2015/QRcode/CarvingQR" "-BD:/workplace/visual studio 2015/QRcode/CarvingQR/build" --check-stamp-file "D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/workplace/visual studio 2015/QRcode/CarvingQR/external/zxing/CMakeLists.txt;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\CMakeLists.txt;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\source_files.cmake;D:\dev\opencv4.0\opencv\build\OpenCVConfig-version.cmake;D:\dev\opencv4.0\opencv\build\OpenCVConfig.cmake;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cmake\zxing-config.cmake.in;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\workplace\visual studio 2015\QRcode\CarvingQR\build\external\zxing\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/workplace/visual studio 2015/QRcode/CarvingQR/external/zxing/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HD:/workplace/visual studio 2015/QRcode/CarvingQR" "-BD:/workplace/visual studio 2015/QRcode/CarvingQR/build" --check-stamp-file "D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/workplace/visual studio 2015/QRcode/CarvingQR/external/zxing/CMakeLists.txt;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\CMakeLists.txt;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\source_files.cmake;D:\dev\opencv4.0\opencv\build\OpenCVConfig-version.cmake;D:\dev\opencv4.0\opencv\build\OpenCVConfig.cmake;D:\dev\opencv4.0\opencv\build\x64\vc14\lib\OpenCVConfig.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\FindPackageMessage.cmake;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cmake\zxing-config.cmake.in;D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\workplace\visual studio 2015\QRcode\CarvingQR\build\external\zxing\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\opencv-cli\src\main.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\build\ZERO_CHECK.vcxproj">
+      <Project>{CF98DF47-9CCB-350F-ACC0-84BB9CC9D979}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\workplace\visual studio 2015\QRcode\CarvingQR\build\external\zxing\libzxing.vcxproj">
+      <Project>{D4182311-1BCF-3E73-A60E-CA4F5DCAEAE7}</Project>
+      <Name>libzxing</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

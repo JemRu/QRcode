@@ -1,0 +1,12 @@
+D:/workplace/visual studio 2015/QRcode/CarvingQR/build/CMakeFiles/core.dir
+D:/workplace/visual studio 2015/QRcode/CarvingQR/build/CMakeFiles/CarvingQR_bin.dir
+D:/workplace/visual studio 2015/QRcode/CarvingQR/build/CMakeFiles/INSTALL.dir
+D:/workplace/visual studio 2015/QRcode/CarvingQR/build/CMakeFiles/ALL_BUILD.dir
+D:/workplace/visual studio 2015/QRcode/CarvingQR/build/CMakeFiles/ZERO_CHECK.dir
+D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/CMakeFiles/zxing.dir
+D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/CMakeFiles/libzxing.dir
+D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/CMakeFiles/zxing-cv.dir
+D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/CMakeFiles/INSTALL.dir
+D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/CMakeFiles/ALL_BUILD.dir
+D:/workplace/visual studio 2015/QRcode/CarvingQR/build/qrgen.out/CMakeFiles/qrgen.dir
+D:/workplace/visual studio 2015/QRcode/CarvingQR/build/qrgen.out/CMakeFiles/INSTALL.dir

@@ -1,0 +1,50 @@
+# CMake generation dependency list for this directory.
+D:/workplace/visual studio 2015/QRcode/CarvingQR/CMakeLists.txt
+D:/workplace/visual studio 2015/QRcode/CarvingQR/build/CMakeFiles/3.9.0/CMakeSystem.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeSystemSpecificInitialize.cmake
+D:/workplace/visual studio 2015/QRcode/CarvingQR/build/CMakeFiles/3.9.0/CMakeCCompiler.cmake
+D:/workplace/visual studio 2015/QRcode/CarvingQR/build/CMakeFiles/3.9.0/CMakeCXXCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/Platform/Windows-MSVC.cmake
+D:/workplace/visual studio 2015/QRcode/CarvingQR/build/CMakeFiles/3.9.0/CMakeRCCompiler.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/CMakeCommonLanguageInclude.cmake
+D:/workplace/visual studio 2015/QRcode/CarvingQR/cmake/FindZxing.cmake
+D:/dev/opencv4.0/opencv/build/OpenCVConfig-version.cmake
+D:/dev/opencv4.0/opencv/build/OpenCVConfig.cmake
+D:/dev/opencv4.0/opencv/build/x64/vc14/lib/OpenCVConfig.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/FindPackageMessage.cmake
+D:/dev/opencv4.0/opencv/build/x64/vc14/lib/OpenCVModules.cmake
+D:/dev/opencv4.0/opencv/build/x64/vc14/lib/OpenCVModules-debug.cmake
+D:/dev/opencv4.0/opencv/build/x64/vc14/lib/OpenCVModules-release.cmake
+C:/Program Files/CMake/share/cmake-3.9/Modules/FindBoost.cmake
+D:/workplace/visual studio 2015/QRcode/CarvingQR/cmake/FindCGAL.cmake
+D:/dev/CGAL/build64/CGALConfig.cmake
+D:/dev/CGAL/build64/CGALExports.cmake
+D:/dev/CGAL/build64/CGALLibConfig.cmake
+D:/dev/CGAL/build64/CGAL_CoreLibConfig.cmake
+D:/dev/CGAL/build64/CGAL_ImageIOLibConfig.cmake
+D:/dev/CGAL/build64/CGAL_Qt5LibConfig.cmake
+D:/dev/CGAL/cmake/modules/UseCGAL.cmake
+D:/dev/CGAL/cmake/modules/CGAL_Macros.cmake
+D:/dev/CGAL/cmake/modules/CGAL_VersionUtils.cmake
+D:/dev/CGAL/cmake/modules/CGAL_Common.cmake
+D:/dev/CGAL/cmake/modules/CGAL_Macros.cmake
+D:/dev/CGAL/cmake/modules/CGAL_SetupVLD.cmake
+D:/dev/CGAL/cmake/modules/CGAL_SetupFlags.cmake
+D:/dev/CGAL/cmake/modules/CGAL_GeneratorSpecificSettings.cmake
+D:/dev/CGAL/cmake/modules/CGAL_TweakFindBoost.cmake

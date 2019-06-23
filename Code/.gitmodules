@@ -1,0 +1,6 @@
+[submodule "external/zxing"]
+	path = external/zxing
+	url = https://github.com/glassechidna/zxing-cpp.git
+[submodule "external/qrgen"]
+	path = external/qrgen
+	url = https://github.com/swannyPeng/Qrgen.git

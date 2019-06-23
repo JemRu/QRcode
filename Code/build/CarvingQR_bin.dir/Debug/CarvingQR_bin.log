@@ -1,0 +1,6 @@
+﻿  main.cpp
+d:\workplace\visual studio 2015\qrcode\carvingqr\include\MyDetector.h(14): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+d:\workplace\visual studio 2015\qrcode\carvingqr\include\QRImageInfo.h(70): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+d:\workplace\visual studio 2015\qrcode\carvingqr\include\QRImageInfo.h(71): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  CarvingQR_bin.vcxproj -> D:\workplace\visual studio 2015\QRcode\CarvingQR\build\Debug\CarvingQR_bin.exe
+  CarvingQR_bin.vcxproj -> D:/workplace/visual studio 2015/QRcode/CarvingQR/build/Debug/CarvingQR_bin.pdb (Full PDB)

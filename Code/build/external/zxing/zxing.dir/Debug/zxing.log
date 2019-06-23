@@ -1,0 +1,54 @@
+﻿  Building Custom Rule D:/workplace/visual studio 2015/QRcode/CarvingQR/external/zxing/CMakeLists.txt
+  CMake does not need to re-run because D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/CMakeFiles/generate.stamp is up-to-date.
+  ImageReaderSource.cpp
+  jpgd.cpp
+  lodepng.cpp
+  main.cpp
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing/common/Array.h(73): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\ImageReaderSource.cpp)
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing/common/Array.h(72): note: while compiling class template member function 'int zxing::Array<T>::size(void) const'
+          with
+          [
+              T=char
+          ] (compiling source file D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\ImageReaderSource.cpp)
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\ImageReaderSource.cpp(73): note: see reference to function template instantiation 'int zxing::Array<T>::size(void) const' being compiled
+          with
+          [
+              T=char
+          ]
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\ImageReaderSource.cpp(73): note: see reference to class template instantiation 'zxing::Array<T>' being compiled
+          with
+          [
+              T=char
+          ]
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\lodepng.cpp(795): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\lodepng.cpp(803): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\lodepng.cpp(804): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\lodepng.cpp(833): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\lodepng.cpp(834): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\lodepng.cpp(1472): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\lodepng.cpp(1505): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\lodepng.cpp(3407): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\lodepng.cpp(3413): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\lodepng.cpp(4373): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\lodepng.cpp(4421): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\lodepng.cpp(4501): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\lodepng.cpp(5428): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\lodepng.cpp(5647): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing/common/Array.h(73): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data (compiling source file D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\main.cpp)
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\core\src\zxing/common/Array.h(72): note: while compiling class template member function 'int zxing::Array<T>::size(void) const'
+          with
+          [
+              T=zxing::Ref<zxing::ResultPoint>
+          ] (compiling source file D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\main.cpp)
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\main.cpp(133): note: see reference to function template instantiation 'int zxing::Array<T>::size(void) const' being compiled
+          with
+          [
+              T=zxing::Ref<zxing::ResultPoint>
+          ]
+  D:\workplace\visual studio 2015\QRcode\CarvingQR\external\zxing\cli\src\main.cpp(133): note: see reference to class template instantiation 'zxing::Array<T>' being compiled
+          with
+          [
+              T=zxing::Ref<zxing::ResultPoint>
+          ]
+  zxing.vcxproj -> D:\workplace\visual studio 2015\QRcode\CarvingQR\build\external\zxing\Debug\zxing.exe
+  zxing.vcxproj -> D:/workplace/visual studio 2015/QRcode/CarvingQR/build/external/zxing/Debug/zxing.pdb (Full PDB)
